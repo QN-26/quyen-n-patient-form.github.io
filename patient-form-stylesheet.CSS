@@ -1,0 +1,328 @@
+
+/* 
+    Name: Quyen Do Nguyen
+    File: patient-form-stylesheet.css
+    Date Created: 2026-02-25
+    Date Updated: 2026-02-27
+    Purpose: Style sheet for MIS 3371 Assignment 1 HTML file (patient-form.HTML)
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e1f0f3;
+    padding: 20px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#header {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#wonders_medical_logo {
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    width: 800px; 
+    background: white;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(38, 147, 174);
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(41, 163, 193);
+}
+
+.section {
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    gap: 23px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    flex-wrap: wrap;
+    justify-content: left; 
+}
+
+.help-text {
+    margin-top: 3px; 
+    font-size: 15px; 
+    color: rgb(136, 153, 153); 
+}
+
+.optional-text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(136, 153, 153); 
+}
+
+.date-text {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(23, 112, 112); 
+}
+
+.required {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px; 
+    color: red;
+}
+
+label {
+    display: block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    text-align: left; 
+    color: rgb(38, 102, 118);
+}
+
+.label-radio {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    text-align: left; 
+    padding-top: 5px;
+    padding-left: 0px;
+}
+
+.label-check-box {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 3px;
+    text-align: left; 
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+
+.input-text-other {
+    width: 100%;
+    padding: 2px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+input[type="textarea"],
+select,
+textarea {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 50px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+
+input[type="phone"],
+select,
+textarea {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;      
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+
+input[type="range"] {
+    display: flex;
+    width: 93%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    accent-color: rgb(64, 177, 205);
+}
+
+.radio-group,
+.checkbox-group {
+    display: block;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.slider-format {
+    display: block;
+    width: 710px;
+    margin-left: 100px;
+}
+
+.slider-container {
+    display: block;
+    align-self: center;
+    padding-left: 40px;
+}
+
+.slider-numbers {
+    display: flex;
+    justify-content: space-between;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 65px;
+    color: rgb(47, 105, 119);
+}
+
+.credential-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.submit-button {
+    background-color: rgb(19, 151, 183);
+    color: white;
+}
+
+.reset-button {
+    background-color: rgb(153, 153, 153);
+    color: white;
+}
+
+.footer-box {
+    background-color: rgb(249, 249, 249);
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 15px;
+}
+
+.contact-column a,
+.social-column a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3px;
+    margin-right: 10px;
+    color: rgb(8, 171, 211); 
+}
+
+.contact-column a:hover,
+.social-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-image img {
+    display: block;
+    margin-top: 5px;
+    max-width: 80px; 
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+
+
